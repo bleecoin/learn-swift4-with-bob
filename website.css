@@ -19,3 +19,8 @@ figcaption {
 img {
   algin: cetner
 }
+
+
+.gitbook-link {
+    display: none !important;
+}
