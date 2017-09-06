@@ -19,7 +19,6 @@ protocol PassDataDelegate {
 }
 //: Design Delegator (Sender)
 class FirstVC {
-  func drawCircle() {}
   var delegate: PassDataDelegate?
 }
 
@@ -56,5 +55,9 @@ class BobViewController: UIViewController, UITableViewDelegate {
     // ...
   }
 }
+
+// tableView.delegate?.tableView(tableView, didSelectRorwAt: IndexPath)
+
+
 //: - `UITableView` is the delegator/CEO/sender
 //: - `BobViewController` is the delegate/Secretary/receiver

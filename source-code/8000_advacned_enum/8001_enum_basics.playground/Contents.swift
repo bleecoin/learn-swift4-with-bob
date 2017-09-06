@@ -97,6 +97,7 @@ enum Barcode {
 var qrCode = Barcode.qrCode("XYZ")
 var upcCode = Barcode.upc(4, 2, 5, 5)
 
+
 //: Validation
 if case let Barcode.qrCode(value) = qrCode {
   print("This is a qrcode")

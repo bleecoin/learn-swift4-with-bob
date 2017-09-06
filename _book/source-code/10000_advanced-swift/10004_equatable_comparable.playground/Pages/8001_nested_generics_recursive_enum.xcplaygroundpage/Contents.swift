@@ -1,7 +1,7 @@
 /*:
  ## Learn Swift with Bob
  ### Advanced Swift
- ### Equtable and Comparable Protocol
+ ### 10004_Equtable and Comparable Protocol
  
  **Problem:** Understand, *"Swift is a protocol oriented langauge"*
  
@@ -20,6 +20,7 @@ struct Blog {
   let author: String
   let title: String
 }
+
 
 extension Blog: Equatable {
   static func ==(lhs: Blog, rhs: Blog) -> Bool {
@@ -95,25 +96,6 @@ extension OS: Comparable {
     return lhs == .iOS ? true: false
   }
 }
-
-
-let iOS = OS.iOS
-let android = OS.android
-
-iOS < android // false
-iOS <= android // false
-iOS >= android // false
-iOS > android // true
-
-android > iOS // false
-android >= iOS // false
-android <= iOS // false
-android < iOS // true
-
-print("hello")
-
-
-
 
 
 

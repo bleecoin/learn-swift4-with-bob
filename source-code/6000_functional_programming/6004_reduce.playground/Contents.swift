@@ -8,6 +8,7 @@
  ---
  */
 //: ### Imperative/Non-Functional
+
 //: Addition
 var numberOne = Int()
 for number in Array(1...10) {
@@ -40,8 +41,8 @@ func myReduce(_ seed: Int, numbers: [Int], operation: (Int, Int) -> Int) {
 myReduce(0, numbers: Array(1...10)) { $0 + $1 }
 
 //: Max Number
-let maxNumber = Array(1...10).myReduce(0) { (total, number) in max(total, number) }
-let bigNumber = Array(1...10).myReduce(0) { max($0, $1) }
+let maxNumber = Array(1...10).reduce(0) { (total, number) in max(total, number) }
+let bigNumber = Array(1...10).reduce(0) { max($0, $1) }
 
 //: Create Function that Returns
 func reduce(_ seed: Int, numbers: [Int], operation: (Int, Int) -> Int) -> Int {
@@ -53,6 +54,7 @@ func reduce(_ seed: Int, numbers: [Int], operation: (Int, Int) -> Int) -> Int {
 }
 
 reduce(0, numbers: Array(1...10)) { $0 + $1 }
+
 //: Generic Reduce
 extension Array {
   func myReduce<U>(_ seed: U, operation:(U, U) -> U)  -> U {
@@ -85,6 +87,4 @@ extension Array {
 }
 
 let hello = ["Bob", "Bobby", "Lee"].reduce("Names:") { "\($0) " + $1 }
-
-
 

@@ -7,7 +7,7 @@ Welcome to Lesson 9 of The Swift Fundamentals. There are two objectives. The fir
  1. I'd love to eliminate duplicated items: `sets`
  2. I'd love to combine all kinds of types: `tuples`
 
-## Introducing Sets
+### Introducing Sets
 A set stores values of the same type in a collection with **no defined ordering** and **no duplicated elements**.
 
 ### Multiple Ways to Create Arrays
@@ -37,7 +37,7 @@ var setTwo: Set<String> = ["Bob", "Bobby", "Bob the Developer"]
 var emptySet = Set<String>()
 ```
 
-## Built-In Set Methods
+### Built-In Set Methods
 Similar to `Array`, `Set` contains default methods and properties.
 
 ```swift
@@ -46,7 +46,7 @@ emptySet.contains("Bob") // true
 emptySet.remove("Bob")
 ```
 
-## Create Two Arrays
+### Create Two Arrays
 You may convert `Array` to `Set`, or vice versa. In this example, let us convert `Array` to `Set`. First, create two arrays filled with odd and even numbers.
 
 ```swift
@@ -63,7 +63,6 @@ for number in 1...50 {
 ```
 
 ### Ternary Operator
-You may use ternary operator as an alternative to achieve the same result above. You will learn more in [1011_intro_operators](/course/swift-fundamentals/intro-operators.md)  
 
 ```swift
 for number in 1...50 {
@@ -77,7 +76,7 @@ oddNumbers // [1, 3, 5, 7, 9, ...]
 evenNumbers // [2, 4, 6, 8, 10, ...]
 ```
 
-## Convert Array to Set
+### Convert Array to Set
 
 ```swift
 var oddNumberSet = Set(oddNumbers)
@@ -86,10 +85,11 @@ let evenNumberSet = Set(evenNumbers)
 
 `oddNumberSet` and `evenNumberSet` no longer has defined order.
 
-## Built-In Set Methods
+### Built-In Set Methods
 `Set` provides methods to work with multiple sets.
 
-<img src=/course/swift-fundamentals/assets/swift-set-structure.png alt="Built-in Set methods" width=600px/>
+![Built-in Set methods](/courses/learn-swift-with-bob/1000-swift-fundamentals/swift-set-structure.png)
+
 
 #### Union
 
@@ -146,13 +146,13 @@ let sortedArrayFromHighToLow = evenNumberSet.sorted { $0 > $1 }
 print(sortedArrayFromHighToLow) // [100, 98, 96, ...]
 ```
 
-In this course, you are not going to learn how `sorted()` is constructed. However, if you are interested in learning more about Functional/Reactive Programming with RxSwift and MVVM, you can be on the mailing list for my [upcoming courses](/ABOUT.md#course).
+In this course, you are not going to learn how `sorted()` is constructed. However, if you are interested in learning more about Functional/Reactive Programming with RxSwift and MVVM, you can be on the mailing list.
 
 ###  Practical Usage of Set
  - Finding unique letters and unique visitors
  - Any game logic (Up to your imagination)
 
-## Introducing Tuples
+### Introducing Tuples
 You may combine multiple types of value in a single `let` or `var`.
 
 ```swift
@@ -188,7 +188,6 @@ This is your past.
 let httpFailure: [Any] = [401, "Fail"]
 ```
 
-
 You no longer have to upcast to `Any`.
 
 ```swift
@@ -198,7 +197,7 @@ httpSuccess.code
 
 
 
-## Bonus Tips
+### Bonus Tips
 You created multiple instances in a single line.
 
 ```swift
@@ -220,17 +219,17 @@ You may convert an array into a tuple that contains index and element through th
 
 ```swift
 var shoppingList = ["Eggs", "Milk", "Rice"]
-
+7
 for (index, value) in shoppingList.enumerated() {
   print(index, value)
 }
 ```
 
 ### Source Code
-[1009_set_tuple.playground](https://www.dropbox.com/sh/u0ltcnxjiao4s9s/AAAAAZZdGxSUhUCd2nUCpKwFa?dl=0)
+> [1009-set-tuple.playground](https://www.dropbox.com/sh/ykgnh1lgo3vdsxv/AABz52DHI28LcIguJQMtpHEFa?dl=0)
 
 ### Reference
-[Swift API Design Guidelines](https://swift.org/documentation/api-design-guidelines/)
+1. Swift API Design Guidelines by [the Swift Official Blog](https://swift.org/documentation/api-design-guidelines/)
 
 ## Conclusion
 To recap, `Set` is used to group non-duplicate items with no order. `Tuple` is used to group all kinds of types with the order you define.  Second, you've learned how to identify mutating vs non-mutating methods based on the naming guide. Make sure you follow the same principle in your codebase as well. Don't get too caught up with Functional Programming. I know it sounds cool. You will get a taste of it in chapter 3, Intro to Functional Swift.

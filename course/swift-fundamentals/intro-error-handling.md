@@ -9,7 +9,7 @@ Welcome to Lesson 4, `Intro to Error Handling`, of The Swift Fundamentals. I fea
 3. How do you distinguish between `try?`, `try!`, and `try`?
 
 
-## Design Safety Feature
+### Design Safety Feature
 Design a safety check for riders based on height. If the passenger is taller than 2m or below 1.4m, the program will send error messages along with other instructions.
 
 ```swift
@@ -38,10 +38,10 @@ func checkHeight(height: Int) {
 2. Lack of modularity
 3. Uncertainty
 
-## Error Handling
+### Error Handling
 `Error Handling` is just additional way to write an `else-if` statement to not only deal with the error messages but also respond after them in a separate block.
 
-### Design Error
+#### Design Error
 Create an enum that conforms to the `Error` protocol. Determine a few cases.  
 
 ```swift
@@ -53,7 +53,7 @@ enum HeightError: Error {
 
 > Any type that declares conformance to the Error protocol can be used to represent an error in Swift’s error handling system. Because the Error protocol has no requirements of its own, you can declare conformance on any custom type you create.
 
-### Design Throwable Function
+#### Design Throwable Function
 Create a function that can throw/return errors by inserting `throws` at the end of the function parameter. The function does not contain error messages. Instead, it "throws" an error which will be "caught" and handled in a separate block with `do-try`.
 
 ```swift
@@ -68,7 +68,7 @@ func checkHeightError(height: Int) throws {
 }
 ```
 
-### Call and Handle Error
+#### Call and Handle Error
 To call a function that contains `throws`, the function requires `try` within a `do` block. A `catch` block is used to recognize and the error thrown by the function. If there is no error thrown, the `catch` block is ignored.
 
 ```swift
@@ -80,11 +80,11 @@ do {
 } catch HeightError.minHeight {
   print("Too short to ride")
 }
- ```
+```
 
-## Error Handling with Object Initialization
+### Error Handling with Object Initialization
 
-### Design Error
+#### Design Error
 
 ```swift
 enum NameError: Error {
@@ -92,7 +92,7 @@ enum NameError: Error {
 }
 ```
 
-### Design Throwable Class
+#### Design Throwable Class
 When the user enters an empty string when initializing, the init method throws `NameError.noName`.
 
 ```swift
@@ -110,7 +110,7 @@ class Course {
 }
 ```
 
-### Initialize and Handle Error
+#### Initialize and Handle Error
 Create an object using `try` within a `do-catch` block.
 
 ```swift
@@ -122,12 +122,12 @@ do {
 }
 ```
 
-## Distinguish Between `try?`, `try!`, and `try`
+### Distinguish Between `try?`, `try!`, and `try`
 `try` is only used within a `do-catch` block. However, `try?` and `try!` can be used without it.
 
 > You may get away using `try` without a `do-try` block within Playground, but it is not allowed in anywhere else.
 
-### try?
+#### try?
 It returns an optional type. If it throws an error, the result will be `nil`.
 
 ```swift
@@ -135,7 +135,7 @@ let newCourse = try? Course(name: "Bob the Dev") // returns Course?
 let newDopeCourse = try? Course(name: "") // nil
 ```
 
-### try!
+#### try!
 It returns a normal type. If the method/init throws an error, it will crash.
 
 ```swift
@@ -144,10 +144,10 @@ let myDopeNewCourse = try! Course(name: "") // ☠️
 ```
 
 ### Source Code
-[1004_intro_error_handling.playground](https://www.dropbox.com/sh/9ywof00ryj3s12k/AAAcowGDCfFYCxQW_J5hhidYa?dl=0)
+> [1004-intro-error-handling.playground](https://www.dropbox.com/sh/baremybg4iwpx8m/AADMpGbUreunUmOevZL6kzNfa?dl=0)
 
 ### Resources
-[Intro to Error Handling by Bob the Developer](https://goo.gl/EaepCa)
+  1. Intro to Error Handling in Swift by [Bob Lee](https://goo.gl/EaepCa)
 
 ## Conclusion
 You've learned the Swift Error Handling syntax such as `catch`, `do`, and `try`. To recap, you may only use `try` within a `do-catch` block to execute a throwable method. However, you may also use `try?` and `try!` alone. Again, avoid using`!` in most cases since it will break your program. If you wish to review or feel stuck, I've attached an additional article for you to study as well.

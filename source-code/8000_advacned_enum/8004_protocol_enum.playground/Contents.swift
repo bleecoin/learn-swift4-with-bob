@@ -25,7 +25,8 @@ enum Player: LifeSpan {
   var numberOfHearts: Int {
     switch self {
     case .dead: return 0
-    case let .alive(numberOfHearts): return numberOfHearts
+    case let .alive(numberOfHearts):
+      return numberOfHearts
     }
   }
   

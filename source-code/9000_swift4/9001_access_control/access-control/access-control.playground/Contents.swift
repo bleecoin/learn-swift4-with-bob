@@ -1,13 +1,4 @@
-/*:
- ## Learn Swift with Bob
- ### What's New in Swift 4
- ### 9001_access_control
- 
- **Problem:** I don't want you to touch my code.
- 
- ---
- 
- */
+
 
 /*:
  ### Why is this important?

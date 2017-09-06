@@ -39,8 +39,6 @@ bobClass?.bobClosure!()
 
 bobClass = nil
 
-
-
 //: Design Independent Class
 class Owner {
   var creditCard: CreditCard?
@@ -66,6 +64,7 @@ class CreditCard {
 //: Create Instances
 var bob: Owner? = Owner()
 var myCard = CreditCard(enterOwner: bob!)
+
 bob?.creditCard = myCard
 
 bob = nil

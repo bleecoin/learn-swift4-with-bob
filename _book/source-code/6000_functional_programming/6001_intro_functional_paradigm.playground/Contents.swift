@@ -6,10 +6,9 @@
  **Problem:** What is functional programming
  
  */
-//: > “Functional Programming is a paradigm that allows you to make your code explicit. There is no state and no mutuality”
+//: > “Functional Programming is a paradigm that allows you to make your code explicit. There is no state and no mutality”
 
 //: ### Non-functional Programming
-
 // Somewhere in ViewController
 let numbers = [1, 2, 3]
 var sum = 0
@@ -62,9 +61,8 @@ saveMeFromMadness(elements: [4, 5, 6])
 
 /*: 
  ### Benefits of Functional Programming
- A functional paradigm ensures no mutability or no change in state when used.
+ A functional paradigm ensures no mutability or no change in state when used/No explicit state management
  - Modularity
- - No explicit state management
  - Fewer lines 
  - Conventional communication
  */

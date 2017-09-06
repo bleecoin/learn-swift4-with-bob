@@ -139,7 +139,7 @@ ModelS(enterWheelNumber: 50) // Wow, you've got a nice car
 ```
 
 ### Source Code
-[2005_override_init_method_property.playground](https://www.dropbox.com/sh/an56n4r1ic09dvq/AABTZOHVgf_-rEt7fPoOl72Ba?dl=0)
+> [2005-override-init-method-property.playground](https://www.dropbox.com/sh/nldu0rhd1eqb6o9/AAAzzyPmG_Lk463JeV2ngJYSa?dl=0l=0)
 
 
 ## Conclusion

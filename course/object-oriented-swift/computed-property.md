@@ -106,7 +106,7 @@ side // 31.6
  - Preventing others from manipulating your code
 
 ### Source Code
-[2002_computed_property.playground](https://www.dropbox.com/sh/vv5tp1gdb1j2gak/AAD67482Na54FQfKdRJwg9xTa?dl=0)
+> [2002-computed-property.playground](https://www.dropbox.com/sh/dvx7u8t04oac4jd/AADhkAHZ8klg7CTXQXnKSHFta?dl=0)
 
 ## Conclusion
  You've learned what it means to create a gettable property that can be only read. You've also learned how to create a settable property which allows you to modify its value as well as those of others. The UIKIt framework often utilizes gettable properties to prevent us, developers, from modifying them.

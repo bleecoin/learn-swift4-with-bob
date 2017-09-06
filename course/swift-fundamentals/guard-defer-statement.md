@@ -1,6 +1,7 @@
 # Guard Statement
+
 ## Introduction
-Welcome to Lesson 3 of The Swift Fundamentals. When I started learning Swift for the first time, an `else-if` statement made sense. However, a `guard` statement rather seemed daunting. In fact, the name doesn't tell anything about what it does. One day, however, I discovered something. A `guard` statement is just another for you to write an `else-if` statement. A `guard` statement promotes zenness. In other words, it adds clarity, emptiness, and lots of cloud and space. Let us find out through examples.
+Welcome to Lesson 3 of The Swift Fundamentals. When I started learning Swift for the first time, an `else-if` statement made sense. However, a `guard` statement rather seemed daunting. In fact, the name doesn't tell anything about what it does. One day, however, I discovered something. A `guard` statement is just another for you to write an `else-if` statement. A `guard` statement promotes zenness. In other words, it adds clarity, emptiness, and lots of cloud and space. Let us find out through the examples.
 
 > **Zenness:** A trait where peace, calmness, and inner awesomeness are all intertwined - [Urban Dictionary](http://www.urbandictionary.com/define.php?term=Zenness)
 
@@ -8,7 +9,7 @@ Welcome to Lesson 3 of The Swift Fundamentals. When I started learning Swift for
 1. Is there any alternative way to write an `else-if` statement?
 2. How do you safely unwrap multiple `optionals`?
 
-## Typical Else-If
+### Typical Else-If
 Without having known about `guard`, you have used a long `else-if` statement to indicate an error message block.
 
 ```swift
@@ -34,7 +35,7 @@ func checkDrinkingAge() {
 1.  Nested brackets
 2.  Have to read every line to spot the error message
 
-## Guard Statement
+### Guard Statement
 A `guard` block only runs if the condition is `false`, and it will exit out of the function through `return`. If the condition is `true`, Swift ignores the `guard` block. It provides an **early exit** and **fewer brackets**.
 
 ```swift
@@ -56,7 +57,7 @@ func checkDrinkProgram() {
 }
 ```
 
-## Unwrap Optionals with Else-If
+### Unwrap Optionals with Else-If
 A `guard` statement is not only useful for replacing a typical conditional block with an `else-if` statement, but also great for unwrapping `optionals` by minimizing the number of brackets. To compare, let's first begin how to unwrap multiple `optionals` with `else-if`.
 
 First, let us create three `optionals` that will be unwrapped.
@@ -66,7 +67,7 @@ var publicName: String? = "Bob Lee"
 var publicPhoto: String? = "Bob's Face"
 var publicAge: Int? = nil
 ```
-## The Worst Nightmare
+### The Worst Nightmare
 You never want to do this.
 
 ```swift
@@ -120,7 +121,7 @@ func unwrapBetter() {
 ```
 > When Swift encounters `return`, it stops and exits out of the function immediately
 
-## Unwrap with Guard
+### Unwrap with Guard
 The `else-if` statements can be replaced with `guard`.
 
 ```swift
@@ -145,7 +146,7 @@ func unwrapOneByOneWithGuard() {
 }
 ```
 
-## Unwrap Multiple Optionals with Else-If
+### Unwrap Multiple Optionals with Else-If
 So far, you've been unwrapping `optionals` one by one. Swift allows us to unwrap multiple `optionals` at once. If one of them contains `nil`, it will execute the `else` block.
 
 ```swift
@@ -160,7 +161,7 @@ func unwrap() {
 ```
 > **Important:** Be aware that when you unwrap multiple `optionals` at once, you can't identify which contains `nil`.
 
-## Unwrap Multiple Optionals with Guard
+### Unwrap Multiple Optionals with Guard
 Of course, we should use `guard` over `else-if`.
 
 ```swift
@@ -178,7 +179,7 @@ func unwrapWithGuard() {
 }
 ```
 
-## Defer Statement
+### Defer Statement
 > Defer Statement: Put off (an action or event) to a later time; postpone.
 
 A `defer` block only executes only after current scope (loop, method, etc) exits.
@@ -217,7 +218,7 @@ for i in 1...3 {
   - Any code you want to explicitly inform your team without requiring them to read the entire function
 
 ### Source Code
-[1003_guard_defer_statement.playground](https://www.dropbox.com/sh/s3zztv3o6h3xv6v/AABWT2Le9T9SXJegSq9pr19pa?dl=0)
+> [1003-guard-defer-statement.playground](https://www.dropbox.com/sh/mowsgk2260zeom4/AACIIbt2P9cn2hoENO8mLVBTa?dl=0)
 
 ## Conclusion
 In this lesson, you've learned the power of `guard` over typical `else-if`.  First, it provides an early exit. Second, no one has to read the entire function to spot the error messages. You use a `guard` statement not just to please yourself, but for the sake of your teammates' falling hair when he/she reads your code. Keep guarding, everyone. Don't defer your learning, however.

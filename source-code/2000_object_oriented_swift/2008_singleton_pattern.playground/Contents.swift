@@ -17,7 +17,10 @@ class AccountManager {
     // get everything
   }
   
-  private init() {}
+  private init() {
+    print("I'm created")
+  }
+  
 }
 
 AccountManager.sharedInstance.userInfo
@@ -32,11 +35,6 @@ AccountManager.sharedInstance.userInfo.ID = "bobleesj"
 
 // ViewController Three
 AccountManager.sharedInstance.userInfo.ID
-
-
-
-
-
 
 //: Example `UIApplication`, `UserDefault`, `NSNotification`.
 

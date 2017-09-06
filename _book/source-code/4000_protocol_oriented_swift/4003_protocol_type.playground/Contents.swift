@@ -8,6 +8,8 @@
  
  ---
  */
+
+
 //: Design Protocol
 protocol EastAsianable {
   var useChopstics: Bool { get }

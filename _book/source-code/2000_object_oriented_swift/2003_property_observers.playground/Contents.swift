@@ -12,12 +12,12 @@
 // didSet is called immediately after the new value has been stored.
 
 var myGrade: Int = 80 {
-  willSet(newGrade) {
-    print("About to change your grade to \(newGrade)")
+  willSet {
+    print("About to change your grade to \(newValue)")
   }
-  didSet {
+  didSet(backthen) {
     print("Your grade has been changed")
-    print("you had \(oldValue) previously. Now you have \(myGrade)")
+    print("you had \(backthen) previously. Now you have \(myGrade)")
   }
 }
 
@@ -51,7 +51,9 @@ var userLoginInfo: Bool = false {
       // Pop Up
       // All kinds of stuff
   }
+    
  }
+  
 }
 
 userLoginInfo = true

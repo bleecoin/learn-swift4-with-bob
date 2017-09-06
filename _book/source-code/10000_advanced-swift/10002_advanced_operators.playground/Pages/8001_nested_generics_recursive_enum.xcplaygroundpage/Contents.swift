@@ -68,19 +68,6 @@ postfix func %%(enterNumber: Int) -> String {
 Int(arc4random())%%
 
 //: ### Infix
-/*:
- - BitwiseShiftPrecedence { precedence 160 }: <<, >>
- - MultiplicationPrecedence { associativity left precedence 150 }: *, /, %, &
- - AdditionPrecedence { associativity left precedence 140 }: +, -
- - RangeFormationPrecedence { precedence 135 }: ..<, ...
- - CastingPrecedence { precedence 132 }: is, as
- - ComparisonPrecedence { precedence 130 }: <, <=, ==, !=, ===
- - LogicalConjunctionPrecedence { associativity left precedence 120 }: &&
- - LogicalDisjunctionPrecedence { associativity left precedence 110 }: ||
- - NilCoalescingPrecedence { associativity right precedence 110 }: ??
- - TernaryPrecedence Conditional { associativity right precedence 100 }: ?:
- - AssignmentPrecedence { associativity right precedence 90 }¯: =, *=, /=, +=
- */
 3 * 2 + 4
 
 //: Old Method
@@ -92,8 +79,8 @@ func ** (left: Double, right: Double) -> Double {
 
 2 ** 3
 2 ** 10
-
-
+//: Associativity
+5 % 4 * 5
 //: > Swift 3.0
 precedencegroup CustomOperatorPrecedence {
   higherThan: AdditionPrecedence
@@ -152,7 +139,8 @@ func +(left: [Double], right: [Double]) -> [Double] {
   return sum
 }
 
-
+let value = [1, 2] + [3, 4] // [4.0, 6.0]
+print(value)
 
 
 

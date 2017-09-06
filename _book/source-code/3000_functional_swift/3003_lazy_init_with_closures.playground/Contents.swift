@@ -90,7 +90,6 @@ let newBobbyView: UIView = {
 // () -> UIView
 
 //: ### Lazy Var
-
 class IntenseMathProblem {
   lazy var complexNumber: Int = {
     1 * 1
@@ -99,7 +98,6 @@ class IntenseMathProblem {
 
 let problem = IntenseMathProblem() // no value for complexNumber 
 problem.complexNumber // now, complexnumber is 1 
-
 
 
 

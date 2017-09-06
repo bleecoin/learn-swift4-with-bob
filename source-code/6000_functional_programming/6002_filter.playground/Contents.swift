@@ -72,7 +72,6 @@ func stringFilter(grades: [String], operation: (String) -> Bool) -> [String] {
 }
 
 let myGrade = ["A", "A", "A", "A", "B", "D"]
-stringFilter(grades: myGrade, operation: isMomHappy)
 
 //: Pass the closure block indirectly
 let lovelyGrade = stringFilter(grades: myGrade, operation: isMomHappy)

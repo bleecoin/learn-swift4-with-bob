@@ -50,6 +50,7 @@ struct MyCountdown: Sequence {
   func makeIterator() -> CountdownIterator {
     return CountdownIterator(self)
   }
+  
 }
 
 
@@ -64,9 +65,7 @@ struct CountdownIterator: IteratorProtocol {
   
   mutating func next() -> Int? {
     let nextNumber = countdown.start - times
-    guard nextNumber > 0
-      else { return nil }
-    
+    guard nextNumber > 0 else { return nil }
     times += 1
     return nextNumber
   }

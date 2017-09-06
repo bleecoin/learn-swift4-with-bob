@@ -6,7 +6,7 @@ Welcome to lesson 7, `Subscripts`, of The Swift Fundamentals with Bob. What if I
 ## Problem
 I'd love to have a shortcut instead of calling a method.
 
-## Normal Method
+### Normal Method
 Create a class called, `HelloKitty` which contains a method that returns a string value.
 
 ```swift
@@ -23,7 +23,7 @@ let babe = HelloKitty()
 babe.saySomething() // "I'm Cute"
 ```
 
-## Introducing Subscripts
+### Introducing Subscripts
 `Subscripts` are analogous to methods. Yet, there is no name. Instead you add the keyword, `subscript`.
 
 ```swift
@@ -44,7 +44,7 @@ myDays[0]  // "Monday"
 myDays[1]  // "Tuesday"
 ```
 
-## Dictionary
+### Dictionary
 When you access elements in a dictionary, it always returns an `optional` type.
 
 ```swift
@@ -52,7 +52,7 @@ var info = ["Height": 183, "Body Fat": 12.5, "Weight": 76]
 let height = info["Height"] // height is an optional string
 ```
 
-## Artificial Dictionary
+### Artificial Dictionary
 Let us access an element without returning an optional type using `subscripts`.
 
 ```swift
@@ -81,20 +81,18 @@ bob["Body Fat"]        // 12.5
 bob["123456789"]       // 0
 ```
 
-## Shortcoming of Subscript
+### Shortcoming of Subscript
 No context means = ☠️
 
 ### Practical Usage
- 1. Get the number of rows in table/collection
- 2. Anything has to do with pairs and collection types
+  - Get the number of rows in table/collection
+  - Anything has to do with pairs and collection types
 
 ### Source Code
-[1107_subscripts.playground](https://www.dropbox.com/sh/0i0ut11pvx3wfux/AAARAUiJ3AGd7gn3p1JfxtLZa?dl=0)
+> [1007-subscripts.playground](https://www.dropbox.com/sh/iz1o5gg2f43iljs/AACrUrvLKQPc-25ryQ1fzFkPa?dl=0)
 
 
 ## Conclusion
 Now you understand the meaning of creating a shortcut. However, `subscripts` often leads to confusion due to no explicit name. Swift engineers recommend that brevity is not the ultimate goal. Effective communication trumps everything else.
 
 In the next lesson, you will learn the fundamental difference between `structs` and `classes`. In other words, you will learn the meaning of reference types and value types.
-
-> **Note:** Learn Swift with Bob is available on [Udemy](https://udemy.com/learn-swift-with-bob/). If you wish to receive a discount link, you may sign up [here](https://goo.gl/RR4K27).

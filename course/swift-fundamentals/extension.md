@@ -1,4 +1,5 @@
 # Extension
+
 ## Introduction
 Welcome to Lesson 10 of The Swift Fundamentals. In this lesson, you will learn how to keep your codebase modularized and dry through`extension`.
 
@@ -6,7 +7,7 @@ Welcome to Lesson 10 of The Swift Fundamentals. In this lesson, you will learn h
 1. I like to keep it short and modularized.
 2. Prevent anything massive.
 
-## Design Struct
+### Design Struct
 First, design a struct called, `Bob`. It contains two initialized properties: `name` and `skill`.
 
 ```swift
@@ -18,7 +19,7 @@ struct Bob {
 }
 ```
 
-## Extend Struct
+### Extend Struct
 You may "extend" the `Bob` struct and add all kinds of work.
 
 ```swift
@@ -39,9 +40,7 @@ extension Bob {
   }
 }
 ```
-> `self` refers to the object created by the struct. If you do not know how to work with `computed properties`, you may visit [2002_computed_property] and come back after.
-
-[2002_computed_property]: /course/object-oriented-swift/computed-property.md
+> `self` refers to the object created by the struct. If you do not know how to work with `computed properties` which you will learn in Chapter 2.
 
 ### Check
 Create an object called `bob`.
@@ -58,7 +57,7 @@ let newBob = Bob(enterSkill: "Drawing")
 newBob.description // I'm Bob, I know drawing"
 ```
 
-## Extend Swift Native Types
+### Extend Swift Native Types
 > Remember, `Int` just a struct
 
 
@@ -86,25 +85,18 @@ myNumber.squared // 100
 ### The Scope
 As mentioned, `extension` allows developers to implement all kinds of features.
 
- - Add computed instance properties and computed type properties ([2002_computed_property])
- - Define instance methods and type methods ([2007_type_property_method])
+ - Add computed instance properties and computed type properties
+ - Define instance methods and type methods
  - Provide new initializers
- - Define subscripts ([1007_subscripts])
+ - Define subscripts
  - Define and use new nested types with enum/struct
  - Make an existing type conform to a protocol
 
 
-[1007_subscripts]: /course/swift-fundamentals/subscripts.md
-[2002_computed_property]: /course/object-oriented-swift/computed-property.md
-[2007_type_property_method]: /course/object-oriented-swift/type-property-method.md
-
-
 ### Source Code
-[1010_extension.playground](https://www.dropbox.com/sh/dq1288vcb77fzk6/AADgJhq0idPwIFTOTbysAxW7a?dl=0)
+> [1010-extension.playground](https://www.dropbox.com/sh/8s34pbhyposgjf6/AABEmpZs5IxECbf2xPPDlakwa?dl=0)
 
 ## Conclusion
 You've learned the meaning of `self`.  I use `extension` to modularize view controller to prevent MVC, a.k.a, Massive View Controller.
 
-In Chapter 4, you will learn the sheer power of `extension` along with `protocols` If you are interested in learning how to build apps with `Protocols` and best practices that I know of, you may join the VIP list for the upcoming course: [The UIKIt Fundamentals with Bob].
-
-[The UIKIt Fundamentals with Bob]: /ABOUT.md/#course
+In Chapter 4, you will learn the sheer power of `extension` along with `protocols` If you are interested in learning how to build apps with `Protocols` and best practices that I know of, you may join the VIP list for the upcoming course.

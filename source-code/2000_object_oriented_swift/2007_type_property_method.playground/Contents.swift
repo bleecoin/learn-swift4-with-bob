@@ -59,8 +59,19 @@ Parent.introduce()
 
 
 
+
 //: Application 
 struct BluetoothID {
+  
+  struct Android {
+    static let iPhone4 = "4234-1232-1232-5465"
+    static let iPhone5 = "7867-5676-4535-1235"
+    static let iPhone6 = "3938-6738-1424-9876"
+    static let iPhone7 = "4845-3148-1237-1296"
+    static let iPhone8 = "7967-8123-7892-4563"
+  }
+  
+  
   struct iPhone {
     static let iPhone4 = "4234-1232-1232-5465"
     static let iPhone5 = "7867-5676-4535-1235"

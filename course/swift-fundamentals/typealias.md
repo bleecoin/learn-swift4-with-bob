@@ -62,7 +62,7 @@ var optionalTwo: Optional<String> // Generic Enum
 > You will learn more about `optionals` in Chapter 8: Advanced Enums.
 
 ### Source Code
-[1012_typealias.playground](https://www.dropbox.com/sh/14785va0a9oor2x/AADwfnJXD17kyB36ch0LA8A4a?dl=0)
+> [1012-typealias.playground](https://www.dropbox.com/sh/5jiv6ej415gezlu/AAD2f0aHGRRnZPfsw_VqTvVOa?dl=0)
 
 ## Conclusion
 That's it. You've learned how fake.

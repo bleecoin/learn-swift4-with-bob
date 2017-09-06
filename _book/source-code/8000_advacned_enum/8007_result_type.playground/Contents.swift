@@ -10,7 +10,6 @@
  */
 
 //: ### HTTPS Request
-
 //: Design Error
 enum HTTPError {
   case notFound404

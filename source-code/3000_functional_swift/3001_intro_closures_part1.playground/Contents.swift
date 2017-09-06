@@ -59,6 +59,7 @@ let callStringWtihClosure: () -> String = { () in
 
 callStringWtihClosure()
 
+// Skip Return
 let callStringWtihClosureTwo: () -> String = { () in
   "hello, I'm a closure"
 }

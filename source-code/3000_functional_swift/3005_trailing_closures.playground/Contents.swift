@@ -1,7 +1,7 @@
 /*:
  
  ## Learn Swift with Bob
- ### Functional Swift
+ ### Intro to Functional Swift
  ### Trailing Closures
  
  **Problem:** A closure is too long to pass through a function

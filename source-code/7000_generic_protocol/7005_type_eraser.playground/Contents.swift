@@ -45,8 +45,6 @@ class ListCell: Listable {
 //: - Generics
 //: - Closure
 
-
-
 //: Design Wrapper
 class AnyCell<T>: Listable {
   

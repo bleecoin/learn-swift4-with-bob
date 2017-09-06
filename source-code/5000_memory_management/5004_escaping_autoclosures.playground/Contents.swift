@@ -20,7 +20,7 @@ func funcWithClosure(closure: @escaping () -> Void) {
 //: Scenario 2
 import Foundation
 
-func funcWithNetworkingClosure(closure: @escaping () -> Void) {
+func funcWithNetworkingClosure(closure:  () -> Void) {
   DispatchQueue.global().async {
     closure() // Ex) downloading
   }
@@ -52,7 +52,7 @@ Normal().normalFunctionWithClosure { (myName) in
 //: 3. Performance and the ability for the compiler to optimize
 
 
-//: @autoclosure
+//: ### @autoclosure
 func checkIDCard(hasCard: () -> Bool) {
   if hasCard() {
     print("You've an ID")
@@ -84,12 +84,12 @@ class BobGreet {
   }()
   
   deinit {
-    print("I'm gone, bruh 🙆‍")}
+    print("I'm gone 🙆‍")}
 }
 
 var bobGreet: BobGreet? = BobGreet()
 bobGreet?.greeting
-bobGreet = nil // "I'm gone, bruh 🙆‍" 
+bobGreet = nil // "I'm gone 🙆‍" 
 // No-escaping by default
 
 

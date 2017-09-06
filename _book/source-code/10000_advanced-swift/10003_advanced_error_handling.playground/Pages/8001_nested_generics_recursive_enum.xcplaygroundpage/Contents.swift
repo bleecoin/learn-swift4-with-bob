@@ -9,6 +9,10 @@
  */
 Array<String>()
 
+//: Design Error Case
+enum TestingError: Error {
+  case randomError
+}
 
 //: Design Functions
 func nonThrowableFunc() {
@@ -17,11 +21,6 @@ func nonThrowableFunc() {
 func throwableFunc() throws {
   print("From throwable function")
   throw TestingError.randomError
-}
-
-//: Design Error Case
-enum TestingError: Error {
-  case randomError
 }
 
 func rethrowableFuncWithErrorHandling(function: () throws -> ()) rethrows {

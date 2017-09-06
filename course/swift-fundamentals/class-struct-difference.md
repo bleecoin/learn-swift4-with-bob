@@ -7,7 +7,7 @@ Welcome to Lesson 8. There are two objectives. First, you will learn the fundame
   1. What are the differences besides inheritance?
   2. When to use `structs` over `classes`?
 
-## Design Class
+### Design Class
 To demonstrate the difference between `classes` and `structs`, first design a class, `HumanClass` that has a `name` property.
 
 ```swift
@@ -19,7 +19,7 @@ class HumanClass {
 }
 ```
 
-### Create Instance
+#### Create Instance
 
 ```swift
 var humanClassObject = HumanClass(name: "Bob")
@@ -42,7 +42,7 @@ newHumanClassObject.name // "Bobby"
 The `name` property of `newHumanClassObject` has been changed to "Bobby" as well.
 
 
-## Design Struct
+### Design Struct
 Let us find out if the same behavior occurs with an object created with `structs`
 ```swift
 struct HumanStruct {
@@ -52,7 +52,7 @@ struct HumanStruct {
   }
 }
 ```
-### Create Instance
+#### Create Instance
 Create another instance that "copies" `structObject`
 
 ```swift
@@ -72,7 +72,7 @@ On the contrary, the change on the `name` property of `structObject` has no effe
 
  The graph below shows the fundamental difference between `value types` vs `reference types`.
 
-<img src="/course/swift-fundamentals/assets/refernece-value-type-difference.png" alt="The difference in value type and reference type"/>
+![The difference between Value and Reference Types](/courses/learn-swift-with-bob/1000-swift-fundamentals/reference-value-type-difference.png)
 
 ### Classes
 For `classes`, when you create an instance that "copies", the new instance shares the object with the original instance.
@@ -88,10 +88,10 @@ For `structs`, when you create an instance that "copies", the new instance creat
 let newStructObject = structObject // copy-paste
 ```
 
-## Mutability
+### Mutability
 Due to the fundamental difference, there is an interesting discrepancy when it comes to creating instances with `let`.
 
-### Mutability in Classes
+#### Mutability in Classes
 Let us create an instance with `let` and attempt to mutate its property.
 
 ```swift
@@ -111,7 +111,7 @@ bobClass.name // "Bob the Developer"
 
 Although the instance, `bobClass` has been created with `let`, the property of it has been mutated. It is possible since the instance does not own the object. Instead, it has a reference to the`BobClass` object in the cloud/RAM.
 
-### No Mutability in Structs
+#### No Mutability in Structs
 
 ```swift
 struct BobStruct {
@@ -140,19 +140,18 @@ With `structs`, when an instance is created with a constant, `let`, it's not pos
 ### Resources
 To learn more about cons of Object Oriented Programming, you may read the beginning of [Intro to Protocol Oriented Programming].
 
-[Intro to Protocol Oriented Programming]:  https://blog.bobthedeveloper.io/introduction-to-protocol-oriented-programming-in-swift-b358fe4974f
-
-[Chapter 4]: /course/protocol-oriented-swift/introduction.md
+1. Intro to Protocol Oriented Programming by [Bob Lee](https://blog.bobthedeveloper.io/introduction-to-protocol-oriented-programming-in-swift-b358fe4974f)
 
 ### References
-[If you're subclassing, you are doing it wrong - Hector Matos](https://krakendev.io/blog/subclassing-can-suck-and-heres-why)
-<br>[All evidence points to OOP being bullshit](https://content.pivotal.io/blog/all-evidence-points-to-oop-being-bullshit)
-<br>[Object Oriented Programming is exceptionally bad](https://www.leaseweb.com/labs/2015/08/object-oriented-programming-is-exceptionally-bad/)
-<br> [Why Choose Struct Over Class?](http://stackoverflow.com/questions/24232799/why-choose-struct-over-class/24232845)
-### Source Code
-[1008_class_struct_difference.playground]
+1. If you're subclassing, you are doing it wrong by [Hector Matos](https://krakendev.io/blog/subclassing-can-suck-and-heres-why)
+2. All evidence points to OOP being bullshit by [John Barker](https://content.pivotal.io/blog/all-evidence-points-to-oop-being-bullshit)
+3. Object Oriented Programming is exceptionally bad by [LeaseWeb labs](https://www.leaseweb.com/labs/2015/08/object-oriented-programming-is-exceptionally-bad/)
+4. Why Choose Struct Over Class? on [Stack OverFlow](http://stackoverflow.com/questions/24232799/why-choose-struct-over-class/24232845)
 
-[1008_class_struct_difference.playground]:https://www.dropbox.com/sh/8996uqzt2334y4p/AACCyGZNVNoJC-7MzHo0ywn8a?dl=0
+### Source Code
+> [1008-class-struct-difference.playground]
+
+[1008-class-struct-difference.playground]:https://www.dropbox.com/sh/1gzlv0io1h4gyns/AADMutELt2Dx0gVhoADjzmcxa?dl=0
 
 
 ## Conclusion

@@ -3,8 +3,6 @@
  ### Intro to Functional Swift
  ### Swift Capture Lists
 */
-
-
 var a = 0
 var b = 0
 
@@ -36,7 +34,7 @@ closureArray[4]() // 5 😱
 var c = 0
 var d = 0
 
-let smartClosure: () -> () = { _ in
+let smartClosure: () -> () = { () in
   print(c, d)
 }
 

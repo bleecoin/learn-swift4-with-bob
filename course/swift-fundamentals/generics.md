@@ -1,4 +1,5 @@
 # Intro to Generics
+
 ## Introduction
 Welcome to Lesson 6 of The Swift Fundamentals with Bob. When you think of the word, "generic", what makes you think? Well, I'm sure you've thought of versatile code. What? Don't you dare worry. I will walk you through. Remember, the number one goal is to write as little as possible, but produce as much.
 
@@ -6,7 +7,7 @@ Welcome to Lesson 6 of The Swift Fundamentals with Bob. When you think of the wo
 I smell something.
 > For the reference, read more about [code smell](/content/software-engineering/coding-principles.md#code-smell)
 
-## Access Elements
+### Access Elements
 Let us reflect on how we rolled in the past.
 
 ```swift
@@ -47,7 +48,7 @@ func printNumberElement(array: [Int]) {
 ```
 > Needlessly many functions. It goes against the DRY principle.
 
-## Introducing Generics
+### Introducing Generics
 A generic function allows you to pass any value regardless of types.   
 
 ```swift
@@ -85,7 +86,7 @@ printElement(array: highSchoolGPA) // 2.8, 3.2, 3.5, ...
 printElement(array: favoritePeople) // 'Elon Musk", "Steve Jobs", ...
 ```
 
-> Generic code enables you to write flexible, reusable functions, classes, enums, protocols, and structs subject to [requirements](/course/swift-fundamentals/generics#type-constraints) that you define.
+> Generic code enables you to write flexible, reusable functions, classes, enums, protocols, and structs subject to requirements that you define.
 
 Now only you can create generic functions, but also generic classes and structs. Let us begin with a non-generic struct.
 
@@ -113,8 +114,7 @@ myFam.members // ["Bob"]
 
 The struct above only works with `String`. Some families may have names in `Int`. Then, you must create a new struct. It goes against the DRY principle.
 
-## Generic Struct
-
+### Generic Struct
 ```swift
 struct genericFam<T> {
   var members = [T]()
@@ -144,7 +144,7 @@ However, the type can be inferred based on the input.
 let myHappyFamily = genericFam(members: [1, 2, 3, 4, 5])  // T becomes Int
 ```
 
-## Generic Extension
+### Generic Extension
 You may add an [extension](/course/swift-fundamentals/extension.md) to generics for more features. Let us grab the first element in the `members` property.
 
 ```swift
@@ -162,7 +162,7 @@ let geekFamilyMember = genericFam(members: ["Bob", "Bobby"])
 let firstElement = geekFamilyMember.firstElement // "Bob"
 ```
 
-## Type Constraints {#type-constraints}
+### Type Constraints
 So far, you could enter any value to define `T`. But, you may restricts the type you only want to interact with.
 
 First, design two classes.
@@ -189,14 +189,12 @@ addLOLClassOnly(array: [1, 2, 3, 4, 5]) // Error
 
 
 ### Resources
-[Intro to Generics in Swift with Bob](https://medium.com/ios-geek-community/intro-to-generics-in-swift-with-bob-df58118a5001#.fkmmjqnwd)
+  1. Intro to Generics in Swift by [Bob Lee](https://medium.com/ios-geek-community/intro-to-generics-in-swift-with-bob-df58118a5001#.fkmmjqnwd)
 
 ### Source Code
-[1006_generics.playground](https://www.dropbox.com/sh/p8i8134nmljh0js/AADR4Gi-RyEfyc_AwtA9H4aEa?dl=0)
+> [1006-intro-to-generics.playground](https://www.dropbox.com/sh/p2a7hztv0bukebn/AABOj175nTSxWFhY1cMHXAfwa?dl=0)
 
 ## Conclusion
 You now understand how to maintain yourself dry through generic functions and structs. In later chapters, you will more about advanced generics along with `enums` and `protocols`. If you wish to review generic the syntax, I recommend you to watch the lecture again or refer to the article I've attached.
 
 In the next lesson, you will learn how to provide shortcuts within classes and structs instead of calling methods and properties.
-
-> **Note:** Learn Swift with Bob is available on [Udemy](https://udemy.com/learn-swift-with-bob/). If you wish to receive a discount link, you may sign up [here](https://goo.gl/RR4K27).

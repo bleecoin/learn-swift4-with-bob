@@ -19,7 +19,7 @@ class Human {
   }
 }
 
-let lee = Human(name: "Bob Lee") // init(name: String)
+let lee = Human(name: "Bob Lee") // inºit(name: String)
 let bob = Human() // Convenience init()
 
 

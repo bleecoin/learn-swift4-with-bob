@@ -8,24 +8,21 @@
  ---
  
  */
+
 //: Generic Function (Review)
 class LOL {}
 func addLOLClassOnly<T: LOL>(array: [T]) { }
 addLOLClassOnly(array: [LOL()])
-
-
-
 
 //: Design Protocol
 protocol GenericProtocol {
   associatedtype myType
 }
 
-
-
 class SomeClass: GenericProtocol {
   typealias myType = String
 }
+
 class SomeStruct: GenericProtocol {
   typealias myType = Int
 }

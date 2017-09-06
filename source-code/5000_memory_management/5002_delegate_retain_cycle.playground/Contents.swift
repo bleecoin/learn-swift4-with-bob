@@ -6,12 +6,8 @@
  
  ---
  */
-
 //: Design Protocol
-protocol SendDataDelegate: class {
-  
-}
-
+protocol SendDataDelegate: class {}
 
 //: Design Sender/Delegator
 class SendingVC {
@@ -22,9 +18,11 @@ class SendingVC {
   }
 }
 
+
+import UIKit
 //: Design Receiver/Delegate
 class ReceivingVC: SendDataDelegate {
-  lazy var sendingVC: SendingVC = {
+  lazy var sendignVC: SendingVC = {
     let vc = SendingVC()
     vc.delegate = self
     return vc
@@ -35,17 +33,35 @@ class ReceivingVC: SendDataDelegate {
   }
 }
 
-
-//: Deallocate
 var receivingVC: ReceivingVC? = ReceivingVC()
-receivingVC?.sendingVC // lazy born
-receivingVC = nil
+receivingVC?.sendignVC
 
+receivingVC = nil
 
 
 //: Rules
 //:  - A `weak` reference allows the referencing object to becoming `nil` (this happens automatically when the referenced object is deallocated)
 //: - Based on the rule above, the referencing object/variable must be `optional`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

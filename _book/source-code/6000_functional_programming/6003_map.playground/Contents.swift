@@ -76,12 +76,13 @@ func convertNumberToString(number: Int) -> String {
 }
 
 let myNumbers = [1, 2, 3, 4, 5]
-genericMap(myNumbers, convertNumberToString)
+print(genericMap(myNumbers, convertNumberToString))
 
 //: Pass Closure **Directly** (Longer Form)
 genericMap(myNumbers) { (number) -> String in
   return "You are number \(String(number))"
 }
+
 //: Pass Closure **Directly** (Shorter Form)
 genericMap(myNumbers) { "You are number \(String($0))" }
 

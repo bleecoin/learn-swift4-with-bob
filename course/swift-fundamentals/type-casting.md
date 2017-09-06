@@ -8,7 +8,7 @@ In this lesson, you learn how to convert types in objects that are created with 
   1. How do you distinguish between `as`, `as?`, `as!`?
   2. Why does Xcode keep telling me what to do?
 
-## Type Casting in UIKit
+### Type Casting in UIKit
 You might have seen,
 
 ```swift
@@ -17,9 +17,9 @@ let label = UILabel() as UIView
 ```
 You've converted `UILabel` to `UIView`. `UILabel` is a subclass of `UIView`. Let us attempt to replicate the phenomenon with custom classes.
 
-<img src="/course/swift-fundamentals/assets/uikit-framework-hierarchy.png" alt="The UIKit framework hierarchy"/>
+![The UIKit framework hierarchy](/courses/learn-swift-with-bob/1000-swift-fundamentals/uikit-framework-hierarchy.png)
 
-## Human Class
+### Human Class
 Design a class called, `Human` that contains a single method.
 
 ```swift
@@ -30,7 +30,7 @@ class Human {
 }
 ```
 
-## Human Subclass
+### Human Subclass
 Design `Korean` and `Japanese` which inherit from the `Human` class.
 
 ```swift
@@ -55,10 +55,10 @@ bob.introduce() // "Hi, I'm a human"
 bob.singGangNamStyle() // "Oppa Gangnam Style"
 ```
 
-## Type Casting
+### Type Casting
 You may convert `Korean` to `Human` or vice versa. There are two ways: upcasting and downcasting.
 
-### Upcasting
+#### Upcasting
 Upcasting occurs when an object converts its type to the base class. In the early above, you've upcasted `UILabel` to `UIView` using `as`.
 
 > The word "up" aligns with the structure in the graph above.
@@ -69,7 +69,7 @@ newBob.introduce()
 newBob.singGangNamStyle() // Does not exist
 ```
 
-### Upcasting Example in Swift Struct
+#### Upcasting Example in Swift Struct
 
 ```swift
 var name = "Bob" as Any
@@ -80,10 +80,10 @@ var anyArray = [name, number] // [Any]
 > I forgot to mention that `Int` and `String` are struct types which lack base classes. However, structs may only "upcast" to `Any`.
 
 
-### Downcasting
+#### Downcasting
 Downcasting is the opposite. You may downcast `Any` to `String`. However, it may fail since `Any` could contain many types. Analogous to `optionals`, there are two ways to downcast: **Force downcasting** or **Implicit downcasting**
 
-### Force Downcasting
+#### Force Downcasting
 It does not return an `optional` type.  but if it fails, it crashes.
 
 ```swift
@@ -93,7 +93,7 @@ let newValue = anyArray[1] as! String // Error
 ```
 > Downcasting is only available only after upcasting.
 
-### Implicit Downcasting
+#### Implicit Downcasting
  It returns an optional type. If it fails, it returns `nil`.
 
 ```swift
@@ -101,9 +101,9 @@ let newNewValue = anyArray[0] as? Int
 print(newNewValue) // Optional(20)
 ```
 
-## Type Casting in Practice
+### Type Casting in Practice
 
-### Create Instances
+#### Create Instances
 
 ```swift
 let shion = Japanese()
@@ -112,7 +112,7 @@ let kenji = Japanese()
 let park = Korean()
 ```
 
-### Create Array Using Upcasting
+#### Create Array Using Upcasting
 
 ```swift
  let humans: [Human] = [shion as Human, lee as Human, kenji as Human, park as Human]
@@ -125,7 +125,7 @@ let humans: [Human] = [shion, lee, kenji, park]
 let humans = [shion, lee, kenji, park]
 ```
 
-### Loop
+#### Loop
 
 ```swift
 for human in humans {
@@ -139,7 +139,7 @@ for human in humans {
 }
 ```
 
-## Usage in iOS Development
+### Usage in iOS Development
 Typecasting can be used to group UI Components and add attributes as a whole.
 
 ```swift
@@ -178,10 +178,10 @@ let vc = storyboard instantiateViewController(withIdentifier: "VC") as! VC
 ```
 
 ### Source Code
-[1005_type_casting.playground](https://www.dropbox.com/sh/umjqi4t8lotzwxl/AADpqZUp_UmkeKL2x7y6_F00a?dl=0)
+> [1005-type-casting.playground](https://www.dropbox.com/sh/e2ubft7c0wpcfv2/AAADEZ3ajsyjwSNDQAjwDsMfa?dl=0)
 
 ### Reference
-[AnyObject and Any in Swift (Stack Overflow)](http://stackoverflow.com/questions/25809168/anyobject-and-any-in-swift)
+  1. AnyObject and Any in Swift on [Stack Overflow](http://stackoverflow.com/questions/25809168/anyobject-and-any-in-swift)
 
 ## Conclusion
 I lied. I said type casting allowed to convert types in classes. However, you may also convert `Int` and `String` to `Any` even though they are made up of structs, not classes.

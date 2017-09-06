@@ -24,11 +24,10 @@ let numberFam = NumberFamily() // familyType == Int
 
 //: Override Associated Type Directly
 struct NormalFamily: FamilyProtocol {
-// typealias familyType = String
+  typealias familyType = String
+ var familyMembers = ["Bob", "Bobby"]
 //  var familyMembers = ["Bob", "Bobby"]
   
-  var familyMembers = ["Bob", "Bobby"]
-		
 }
 
 
