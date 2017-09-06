@@ -1,7 +1,3 @@
----
-disqus: false
----
-
 # iOS Development
 
 ### Complete Series

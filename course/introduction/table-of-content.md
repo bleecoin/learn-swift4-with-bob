@@ -55,23 +55,25 @@
 <br>[Lesson 5: Trailing Closures]
 <br>[Lesson 6: Completion Handlers]
 
-[Lesson 1: Intro to Closures Part 1]: /course/functional-swift/intro-closure-part1.md
-[Lesson 2: Intro to Closures Part 2]: /course/functional-swift/intro-closure-part2.md
-[Lesson 3: Lazy Init with Closures]: /course/functional-swift/lazy-init-closures.md
-[Lesson 4: Capture Lists]: /course/functional-swift/capture-lists.md
-[Lesson 5: Trailing Closures]: /course/functional-swift/trailing-closures.md
-[Lesson 6: Completion Handlers]: /course/functional-swift/completion-handlers.md
+[Lesson 1: Intro to Closures Part 1]: /COURSE.md
+[Lesson 2: Intro to Closures Part 2]: /COURSE.md
+[Lesson 3: Lazy Init with Closures]: /COURSE.md
+[Lesson 4: Capture Lists]: /COURSE.md
+[Lesson 5: Trailing Closures]: /COURSE.md
+[Lesson 6: Completion Handlers]: /COURSE.md
 
 ## Chapter 4: Protocol Oriented Swift
 [Lesson 1: Intro to Protocols]
 <br>[Lesson 2: Protocol Extension]
 <br>[Lesson 3: Protocol as Type]
 <br>[Lesson 4: Delegate]
+<br>[Lesson 5: Data Source]
 
-[Lesson 1: Intro to Protocols]: /course/protocol-oriented-swift/intro-protocol.md
-[Lesson 2: Protocol Extension]: /course/protocol-oriented-swift/protocol-extension.md
-[Lesson 3: Protocol as Type]: /course/protocol-oriented-swift/protocol-type.md
-[Lesson 4: Delegate]: /course/protocol-oriented-swift/delegate.md
+[Lesson 1: Intro to Protocols]: /COURSE.md
+[Lesson 2: Protocol Extension]: /COURSE.md
+[Lesson 3: Protocol as Type]: /COURSE.md
+[Lesson 4: Delegate]: /COURSE.md
+[Lesson 5: Data Source]: /COURSE.md
 
 
 ## Chapter 5: Memory Management
@@ -80,10 +82,10 @@
 <br>[Lesson 3: Closure Retain Cycle]
 <br>[Lesson 4: Escape and Autoclosures]
 
-[Lesson 1: Automatic Reference Counting]: /course/memory-management/automatic-reference-counting.md
- [Lesson 2: Delegate Retain Cycle]: /course/memory-management/delegate_retain_cycle.md
- [Lesson 3: Closure Retain Cycle]: /course/memory-management/closure_retain_cycle.md
-[Lesson 4: Escape and Autoclosures]: /course/memory-management/@escaping-@autoclosure.md
+[Lesson 1: Automatic Reference Counting]: /COURSE.md
+ [Lesson 2: Delegate Retain Cycle]: /COURSE.md
+ [Lesson 3: Closure Retain Cycle]: /COURSE.md
+[Lesson 4: Escape and Autoclosures]: /COURSE.md
 
 
 ## Chapter 6: Generic Protocol
@@ -93,11 +95,11 @@
 <br>[Lesson 4: Protocol Pitfalls]
 <br>[Lesson 5: Type Eraser]
 
-[Lesson 1: Intro to Associated Type]: /course/generic-protocol/associated-type.md
-[Lesson 2: Protocol Extension and Type Constraints]: /course/generic-protocol/protocol-extension-constraints.md
-[Lesson 3: Override Protocol Associated Type]: /course/generic-protocol/override-associated-type.md
-[Lesson 4: Protocol Pitfalls]: /course/generic-protocol/protocol-pitfalls.md
-[Lesson 5: Type Eraser]: /course/generic-protocol/type-eraser.md
+[Lesson 1: Intro to Associated Type]: /COURSE.md
+[Lesson 2: Protocol Extension and Type Constraints]: /COURSE.md
+[Lesson 3: Override Protocol Associated Type]: /COURSE.md
+[Lesson 4: Protocol Pitfalls]: /COURSE.md
+[Lesson 5: Type Eraser]: /COURSE.md
 
 ## Chapter 7: Advanced Enum
 [Lesson 1: The Enum Basics]
@@ -108,13 +110,13 @@
 <br>[Lesson 6: Generic Enum]
 <br>[Lesson 7: Error Handling with Result Type]
 
-[Lesson 1: The Enum Basics]: /course/advanced-enum/enum-basics.md
-[Lesson 2: Static and Mutating Methods with self]: /course/advanced-enum/static-mutating-self.md
-[Lesson 3: Nested Enum]: /course/advanced-enum/nested-enum.md
-[Lesson 4: Protocol Oriented Enum]: /course/advanced-enum/protocol-enum.md
-[Lesson 5: Recursive Enum]: /course/advanced-enum/recursive-enum.md
-[Lesson 6: Generic Enum]: /course/advanced-enum/generic-enum.md
-[Lesson 7: Error Handling with Result Type]: /course/advanced-enum/result-type.md
+[Lesson 1: The Enum Basics]: /COURSE.md
+[Lesson 2: Static and Mutating Methods with self]: /COURSE.md
+[Lesson 3: Nested Enum]: /COURSE.md
+[Lesson 4: Protocol Oriented Enum]: /COURSE.md
+[Lesson 5: Recursive Enum]: /COURSE.md
+[Lesson 6: Generic Enum]: /COURSE.md
+[Lesson 7: Error Handling with Result Type]: /COURSE.md
 
 ## Chapter 8: Advanced Swift
 [Lesson 1: Nested Generics and Recursive Enum]
@@ -124,11 +126,11 @@
 <br>[Lesson 5: Sequence and Iterator Protocol]
 <br>[Lesson 6: Intro to Test Driven Swift]
 
-[Lesson 1: Nested Generics and Recursive Enum]: /course/advanced-swift/nested-generics-recursive-enum.md
-[Lesson 2: Advanced Operators]: /course/advanced-swift/advanced-operators.md
-[Lesson 3: Advanced Error Handling]: /course/advanced-swift/advanced-error-handling.md
-[Lesson 4: Equatable and Comparable Protocol]: /course/advanced-swift/equatable-comparable.md
-[Lesson 5: Sequence and Iterator Protocol]: /course/advanced-swift/sequence-iterator.md
-[Lesson 6: Intro to Test Driven Swift]: /course/advanced-swift/intro-test-driven.md
+[Lesson 1: Nested Generics and Recursive Enum]: /COURSE.md
+[Lesson 2: Advanced Operators]: /COURSE.md
+[Lesson 3: Advanced Error Handling]:  /COURSE.md
+[Lesson 4: Equatable and Comparable Protocol]: /COURSE.md
+[Lesson 5: Sequence and Iterator Protocol]: /COURSE.md
+[Lesson 6: Intro to Test Driven Swift]:  /COURSE.md
 
 > **Note:** Learn Swift with Bob is available on [Udemy](https://udemy.com/learn-swift-with-bob/). If you wish to receive a discount link, you may sign up [here](https://goo.gl/RR4K27).
