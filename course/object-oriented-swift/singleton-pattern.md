@@ -1,4 +1,7 @@
 # Singleton Pattern
+<div align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fXJzBgTw_z8" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Introduction
 Welcome to the last lesson of Object Oriented Swift. You will learn how to create an object that exists anywhere. The object is like me. There is only one Bob. I'm omnipresent.

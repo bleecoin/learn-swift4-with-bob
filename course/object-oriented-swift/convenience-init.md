@@ -1,4 +1,7 @@
 # Convenience Init
+<div align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lEJt32ONU-0" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Introduction
 Welcome to the first lesson of Object Oriented Swift. You will learn how to become lazy.  In other words, you become smarter and effective when it comes to initializing an object. In programming, getting lazy to write less code is in fact good for your teammates and users as long as it's readable and gets the job done. Bill Gates once mentioned, whenever there is hard work to be done, he assigns it to the laziest person as he or she is sure to find an easy way of doing it.

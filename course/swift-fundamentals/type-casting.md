@@ -1,4 +1,8 @@
 # Type Casting
+<div align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZIfcIfyMDgs" frameborder="0" allowfullscreen></iframe>
+</div>
+
 ## Introduction
 Welcome to lesson 5 of The Swift Fundamentals with Bob. You've learned a number of `!` and `?` since Lesson 1. These are language features that distinguish Swift from the rest, and you've got to know all, when, where, how, and, most importantly, why.
 
@@ -17,7 +21,7 @@ let label = UILabel() as UIView
 ```
 You've converted `UILabel` to `UIView`. `UILabel` is a subclass of `UIView`. Let us attempt to replicate the phenomenon with custom classes.
 
-![The UIKit framework hierarchy](/courses/learn-swift-with-bob/1000-swift-fundamentals/uikit-framework-hierarchy.png)
+![The UIKit framework hierarchy](/course/assets/uikit-framework-hierarchy.png)
 
 ### Human Class
 Design a class called, `Human` that contains a single method.

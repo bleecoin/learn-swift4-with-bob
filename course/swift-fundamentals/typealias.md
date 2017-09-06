@@ -1,4 +1,8 @@
 # Typealias
+<div align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ynzHwLGZqj4" frameborder="0" allowfullscreen></iframe>
+</div>
+
 
 ## Introduction
 Welcome to the last lesson of The Swift Fundamentals. You've come a long way. You will learn how to create fake names for anything. This lesson should be nice and short.

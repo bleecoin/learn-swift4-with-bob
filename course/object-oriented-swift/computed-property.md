@@ -1,4 +1,7 @@
 # Computed Property
+<div align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FJD2M6YGuq4" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Introduction
 Welcome to Lesson 2 of Object Oriented Swift. You will learn how to create relationships between variables. You no longer have to manage two or more variables separately. You probably have seen `get` and `set` before. If you haven't, don't you worry. I will walk you through by placing your feet on mine.

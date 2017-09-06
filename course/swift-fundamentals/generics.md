@@ -1,4 +1,7 @@
 # Intro to Generics
+<div align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/98iy6X3d-Mc" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Introduction
 Welcome to Lesson 6 of The Swift Fundamentals with Bob. When you think of the word, "generic", what makes you think? Well, I'm sure you've thought of versatile code. What? Don't you dare worry. I will walk you through. Remember, the number one goal is to write as little as possible, but produce as much.

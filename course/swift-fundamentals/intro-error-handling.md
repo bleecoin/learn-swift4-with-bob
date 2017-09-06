@@ -1,4 +1,7 @@
 # Intro to Error Handling
+<div align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/USEb-JXDHMI" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Introduction
 Welcome to Lesson 4, `Intro to Error Handling`, of The Swift Fundamentals. I feared `Error Handling`. I thought I had to be a professional debugger to fully utilize the feature. However, one day, I discovered, again. It's nothing more than writing an `else-if` block to send and deal with the error messages you've designed on your own. The built-in features of `Error Handling` since `Swift 2.0` allow you to write cleaner, modular, and readable code.

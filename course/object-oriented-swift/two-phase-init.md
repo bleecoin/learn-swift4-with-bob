@@ -1,4 +1,7 @@
 # Two Phase Init
+<div align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HK8McopghcA" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Introduction
 Welcome to Lesson 6 of Object Oriented Swift. You will learn how one init method may initialize the other. The process is analogous to that of `convenience`. At the end, you will learn how the NASA could have saved millions of dollars if they used the feature Swift offers.

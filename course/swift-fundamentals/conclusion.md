@@ -1,4 +1,9 @@
 # Conclusion
+<div align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/S5UbE9PgK_U" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<br>
 You've successfully completed The Swift Fundamentals. In Lesson 1 to 3, you've learned when, where, how, and why we use `optionals` along with every `!` and `?` that appear in the Swift Programming Language. Next, you've learned to replace a classic `else-if` statement using `guard` not only to provide readable and early exit, but also unwrap multiple `optionals` at once. In Lesson 8, you've learned the difference between value types and reference types and distinctive behavior from their instances. You've learned how to create modular and reusable code through `extension` and `generics`. Lastly, now you understand how to send and handle errors through a `do-try` block and `throw`.
 
 However, I have to tell you that you've just started. As I said, you will come out programming in a different playing field when you follow my lead. Keep moving forward. If you have any questions, feel free to comment. See you at Chapter 2: Object Oriented Swift.

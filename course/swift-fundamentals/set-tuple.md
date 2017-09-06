@@ -1,4 +1,7 @@
 # Set and Tuple
+<div align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0MOaCr5fQvk" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Introduction
 Welcome to Lesson 9 of The Swift Fundamentals. There are two objectives. The first is to learn how to group a list of items with `sets`. The second is to work with various types within a single variable/constant with `tuples`.
@@ -88,7 +91,7 @@ let evenNumberSet = Set(evenNumbers)
 ### Built-In Set Methods
 `Set` provides methods to work with multiple sets.
 
-![Built-in Set methods](/courses/learn-swift-with-bob/1000-swift-fundamentals/swift-set-structure.png)
+![Built-in Set methods](/course/assets/swift-set-structure.png)
 
 
 #### Union

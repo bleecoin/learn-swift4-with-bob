@@ -1,4 +1,7 @@
 # Optionals
+<div align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/goS_u0cbd8M" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Introduction
 Welcome to the first lesson of The Swift Fundamentals. When I first started programming in Swift, I took courses from Udemy, Treehouse, Lynda, and many more. Yet, I could not understand what those `?`s and `!`s stood for.  Xcode kept telling me what to do on the left side, causing more problems. It seemed like no instructor could explain the reasoning behind how to use `optionals`, and most importantly, why the Swift engineers have implemented such a feature that is unique compared to other programming languages. Today, You will discover the rationale behind with me.

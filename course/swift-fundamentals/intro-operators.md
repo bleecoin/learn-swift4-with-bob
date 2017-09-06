@@ -1,4 +1,7 @@
 # Intro to Operators
+<div align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_4_U-ydnhNs" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Introduction
 Welcome to Lesson 11 of The Swift Fundamentals. In Lesson 9, You've tasted the power of Swift operators for replacing a traditional `else-if` statement with a tertiary operator. In this lesson, you will be able be recognize a number of operators and use them when appropriate.

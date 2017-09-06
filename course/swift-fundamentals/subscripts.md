@@ -1,4 +1,7 @@
 # Subscripts
+<div align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KYPkVDpbuGg" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Introduction
 Welcome to lesson 7, `Subscripts`, of The Swift Fundamentals with Bob. What if I told you that you may create a shortcut?

@@ -1,4 +1,7 @@
 # Property Observer
+<div align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/m6JghGUWu7k" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Introduction
 Welcome to Lesson 3 of Object Oriented Swift. You are going to learn how to add an observer to a property so that you may track when it is mutated or anything happens.

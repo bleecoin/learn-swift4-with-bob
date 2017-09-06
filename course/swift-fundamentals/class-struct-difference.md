@@ -1,4 +1,8 @@
 # Class vs Struct
+<div align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-R0_QLss2AE" frameborder="0" allowfullscreen></iframe>
+</div>
+
 
 ## Introduction
 Welcome to Lesson 8. There are two objectives. First, you will learn the fundamental difference between `structs` and `classes` by understanding value types and reference types. Second, you will discover why structs do not provide inheritance.
@@ -72,7 +76,7 @@ On the contrary, the change on the `name` property of `structObject` has no effe
 
  The graph below shows the fundamental difference between `value types` vs `reference types`.
 
-![The difference between Value and Reference Types](/courses/learn-swift-with-bob/1000-swift-fundamentals/reference-value-type-difference.png)
+![The difference between Value and Reference Types](/course/assets/reference-value-type-difference.png)
 
 ### Classes
 For `classes`, when you create an instance that "copies", the new instance shares the object with the original instance.

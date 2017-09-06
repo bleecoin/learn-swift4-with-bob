@@ -1,4 +1,7 @@
 # Optionals Chainings
+<div align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sT7RtwsvrfA" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Introduction
 Welcome to Lesson 2 of The Swift Fundamentals. In the previous lesson, you've learned why we use `optionals` and how to convert them to normal types.
@@ -93,4 +96,4 @@ My Favorite Xcode Shortcuts [Part 1], [Part 2], [Part 3] by Bob Lee
 ## Conclusion
 You've learned `optional chaingins` provide shortcuts to nested properties and methods among classes and structs. However, a `?` automatically appears when you access a property whose type is `optional` to indicate that anything that comes after may contain no value since the `optional` property may be `nil`.
 
-In the next lesson, you will learn how to use a `guard` statement to implicitly unwrap multiple `optionals` instead of a classic `if let` statements. Again, if you wish to increase your coding productivity, feel free to check my articles attahced in the lecture notes. 
+In the next lesson, you will learn how to use a `guard` statement to implicitly unwrap multiple `optionals` instead of a classic `if let` statements. Again, if you wish to increase your coding productivity, feel free to check my articles attahced in the lecture notes.

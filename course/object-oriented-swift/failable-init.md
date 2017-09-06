@@ -1,4 +1,7 @@
 # Failable Init
+<div align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rtIOOw-QTzQ" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Introduction
 Welcome to Lesson 4 of Object Oriented Swift. You will learn how to design an init method that, first, possibly returns no object, but `nil`, second, throws an error.

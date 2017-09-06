@@ -1,4 +1,7 @@
 # Guard Statement
+<div align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sbyJJnReZjY" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Introduction
 Welcome to Lesson 3 of The Swift Fundamentals. When I started learning Swift for the first time, an `else-if` statement made sense. However, a `guard` statement rather seemed daunting. In fact, the name doesn't tell anything about what it does. One day, however, I discovered something. A `guard` statement is just another for you to write an `else-if` statement. A `guard` statement promotes zenness. In other words, it adds clarity, emptiness, and lots of cloud and space. Let us find out through the examples.

@@ -1,4 +1,7 @@
 # Chapter 1
+<div align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/g5RLMZuT9Kk" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## The Swift Fundamentals
 Welcome to the first chapter of Learn Swift with Bob. I've chosen topics that distinguish Swift from any other modern programming languages. You will learn how to identify and distinguish every `?` and `!` in the Swift programming language. You no longer have to rely on the vague instructions from Xcode.

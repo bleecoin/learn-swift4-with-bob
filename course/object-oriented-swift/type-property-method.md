@@ -1,4 +1,7 @@
 # Type Property and Method
+<div align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-UIeVAN_7v4" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Introduction
 Welcome to Lesson 7 of Object Oriented Swift. You are going to learn one of the most useful, yet confusing topics.

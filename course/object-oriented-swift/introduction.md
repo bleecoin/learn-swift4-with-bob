@@ -1,4 +1,9 @@
 # Chapter 2
+<div align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Rj44w8OIfM8" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
 
 ## Object Oriented Swift
 Welcome to Chapter 2 of Learn Swift with Bob. Object Oriented Programming is at the heart of the iOS ecosystem. We, developers, have no choice but to follow the platform created by Apple engineers. Therefore, one must know well about Object Oriented Programming.
