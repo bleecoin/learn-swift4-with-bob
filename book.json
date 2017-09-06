@@ -7,7 +7,6 @@
 
     "plugins": [
        "image-captions",
-       "disqus",
         "mermaid-gb3"
      ],
 

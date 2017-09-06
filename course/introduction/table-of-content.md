@@ -1,5 +1,4 @@
-# Table of Content
-
+# Preview
 ## Chapter 1: The Swift Fundamentals   
 [Lesson 1: Optionals]
 <br>[Lesson 2: Optional Chainings]
@@ -47,90 +46,68 @@
 [Lesson 7: Type Property and Method]: /course/object-oriented-swift/type-property-method.md
 [Lesson 8: Singleton Pattern]: /course/object-oriented-swift/singleton-pattern.md
 
-## Chapter 3: Intro to Functional Swift
-[Lesson 1: Intro to Closures Part 1]
-<br>[Lesson 2: Intro to Closures Part 2]
-<br>[Lesson 3: Lazy Init with Closures]
-<br>[Lesson 4: Capture Lists]
-<br>[Lesson 5: Trailing Closures]
-<br>[Lesson 6: Completion Handlers]
+# Full Version
+> The full version of this course is found on Udemy. Feel free to use coupon [link](https://www.udemy.com/learn-swift-with-bob/?couponCode=GITBOOK) to get 20% off
 
-[Lesson 1: Intro to Closures Part 1]: /COURSE.md
-[Lesson 2: Intro to Closures Part 2]: /COURSE.md
-[Lesson 3: Lazy Init with Closures]: /COURSE.md
-[Lesson 4: Capture Lists]: /COURSE.md
-[Lesson 5: Trailing Closures]: /COURSE.md
-[Lesson 6: Completion Handlers]: /COURSE.md
+## Chapter 3: Intro to Functional Swift
+Lesson 1: Intro to Closures Part 1
+<br>Lesson 2: Intro to Closures Part 2
+<br>Lesson 3: Lazy Init with Closures
+<br>Lesson 4: Capture Lists
+<br>Lesson 5: Trailing Closures
+<br>Lesson 6: Completion Handlers
 
 ## Chapter 4: Protocol Oriented Swift
-[Lesson 1: Intro to Protocols]
-<br>[Lesson 2: Protocol Extension]
-<br>[Lesson 3: Protocol as Type]
-<br>[Lesson 4: Delegate]
-<br>[Lesson 5: Data Source]
-
-[Lesson 1: Intro to Protocols]: /COURSE.md
-[Lesson 2: Protocol Extension]: /COURSE.md
-[Lesson 3: Protocol as Type]: /COURSE.md
-[Lesson 4: Delegate]: /COURSE.md
-[Lesson 5: Data Source]: /COURSE.md
-
+Lesson 1: Intro to Protocols
+<br>Lesson 2: Protocol Extension
+<br>Lesson 3: Protocol as Type
+<br>Lesson 4: Delegate
+<br>Lesson 5: Data Source
 
 ## Chapter 5: Memory Management
-[Lesson 1: Automatic Reference Counting]
-<br>[Lesson 2: Delegate Retain Cycle]
-<br>[Lesson 3: Closure Retain Cycle]
-<br>[Lesson 4: Escape and Autoclosures]
-
-[Lesson 1: Automatic Reference Counting]: /COURSE.md
- [Lesson 2: Delegate Retain Cycle]: /COURSE.md
- [Lesson 3: Closure Retain Cycle]: /COURSE.md
-[Lesson 4: Escape and Autoclosures]: /COURSE.md
+Lesson 1: Automatic Reference Counting
+<br>Lesson 2: Delegate Retain Cycle
+<br>Lesson 3: Closure Retain Cycle
+<br>Lesson 4: Escape and Autoclosures
 
 
 ## Chapter 6: Generic Protocol
-[Lesson 1: Intro to Associated Type]
-<br>[Lesson 2: Protocol Extension and Type Constraints]
-<br>[Lesson 3: Override Protocol Associated Type]
-<br>[Lesson 4: Protocol Pitfalls]
-<br>[Lesson 5: Type Eraser]
+Lesson 1: Intro to Associated Type
+<br>Lesson 2: Protocol Extension and Type Constraints
+<br>Lesson 3: Override Protocol Associated Type
+<br>Lesson 4: Protocol Pitfalls
+<br>Lesson 5: Type Eraser
 
-[Lesson 1: Intro to Associated Type]: /COURSE.md
-[Lesson 2: Protocol Extension and Type Constraints]: /COURSE.md
-[Lesson 3: Override Protocol Associated Type]: /COURSE.md
-[Lesson 4: Protocol Pitfalls]: /COURSE.md
-[Lesson 5: Type Eraser]: /COURSE.md
 
 ## Chapter 7: Advanced Enum
-[Lesson 1: The Enum Basics]
-<br>[Lesson 2: Static and Mutating Methods with self]
-<br>[Lesson 3: Nested Enum]
-<br>[Lesson 4: Protocol Oriented Enum]
-<br>[Lesson 5: Recursive Enum]
-<br>[Lesson 6: Generic Enum]
-<br>[Lesson 7: Error Handling with Result Type]
+Lesson 1: The Enum Basics
+<br>Lesson 2: Static and Mutating Methods with self
+<br>Lesson 3: Nested Enum
+<br>Lesson 4: Protocol Oriented Enum
+<br>Lesson 5: Recursive Enum
+<br>Lesson 6: Generic Enum
+<br>Lesson 7: Error Handling with Result Type
 
-[Lesson 1: The Enum Basics]: /COURSE.md
-[Lesson 2: Static and Mutating Methods with self]: /COURSE.md
-[Lesson 3: Nested Enum]: /COURSE.md
-[Lesson 4: Protocol Oriented Enum]: /COURSE.md
-[Lesson 5: Recursive Enum]: /COURSE.md
-[Lesson 6: Generic Enum]: /COURSE.md
-[Lesson 7: Error Handling with Result Type]: /COURSE.md
 
-## Chapter 8: Advanced Swift
-[Lesson 1: Nested Generics and Recursive Enum]
-<br>[Lesson 2: Advanced Operators]
-<br>[Lesson 3: Advanced Error Handling]
-<br>[Lesson 4: Equatable and Comparable Protocol]
-<br>[Lesson 5: Sequence and Iterator Protocol]
-<br>[Lesson 6: Intro to Test Driven Swift]
+## Chapter 8: Functional Programming
+Lesson 1: Intro Functional Paradigm
+<br>Lesson 2: Filter
+<br>Lesson 3: Map
+<br>Lesson 4: Reduce
 
-[Lesson 1: Nested Generics and Recursive Enum]: /COURSE.md
-[Lesson 2: Advanced Operators]: /COURSE.md
-[Lesson 3: Advanced Error Handling]:  /COURSE.md
-[Lesson 4: Equatable and Comparable Protocol]: /COURSE.md
-[Lesson 5: Sequence and Iterator Protocol]: /COURSE.md
-[Lesson 6: Intro to Test Driven Swift]:  /COURSE.md
 
-> **Note:** Learn Swift with Bob is available on [Udemy](https://udemy.com/learn-swift-with-bob/). If you wish to receive a discount link, you may sign up [here](https://goo.gl/RR4K27).
+## Chapter 9: What's New in Swift 4
+Lesson 1: Keypaths
+<br>Lesson 2: Generic Subscripts
+<br>Lesson 3: Codable and JSON
+<br>Lesson 4: Advanced Codable
+<br>Lesson 5: Advanced Dictionary
+
+
+## Chapter 10: Advanced Swift
+Lessn 1: Nested Generics and Recursive Enu
+<br>Lesson 2: Advanced Operators
+<br>Lesson 3: Advanced Error Handling
+<br>Lesson 4: Equatable and Comparable Protocol
+<br>Lesson 5: Sequence and Iterator Protocol
+<br>Lesson 6: Intro to Test Driven Swift
