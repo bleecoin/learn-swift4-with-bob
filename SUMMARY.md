@@ -1,7 +1,7 @@
 # Summary
 
 ### Introduction
-* [Learn Swift with Bob](README.md)
+* [About](README.md)
 * [Table of Content](/course/introduction/table-of-content.md)
 
 ### Chapter 1: The Swift Fundamentals
